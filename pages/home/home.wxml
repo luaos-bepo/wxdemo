@@ -1,2 +1,127 @@
 <!--pages/home/home.wxml-->
-<text>hellow word</text>
+<view class="swiper-contain">
+      <!--indicator-dots表示是否显示面板上的指示点-->
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class="shop-swip">
+        <block wx:for="{{imgUrls}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}" class="swiper-item"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <view class="src-contain">
+    <view class="view-src"><image src="/imgs/2.png" class="src-imgs"></image>
+    <text class="view-font">礼包中心</text>
+    </view>
+    <view class="view-src"><image src="/imgs/1.png" class="src-imgs"></image>
+    <text class="view-font">活动中心</text>
+    </view>
+    <view class="view-src"><image src="/imgs/3.png" class="src-imgs"></image>
+    <text class="view-font">体验会员</text>
+    </view>
+    <view class="view-src"><image src="/imgs/4.png" class="src-imgs"></image>
+    <text class="view-font">天降红包</text>
+    </view>
+    <view class="view-src"><image src="/imgs/5.png" class="src-imgs"></image>
+    <text class="view-font">许愿池</text>
+    </view>
+    </view>
+
+    <view class="zixun-contain">
+    <text>推荐资讯</text>
+    <van-icon name="arrow" />
+    </view>
+
+    <view class="out">
+    <view class="left">
+    <view class="left-top">
+    <text>LOL黑暗收割艾克野区持续制霸，稻草人领衔三大英雄轻松克制！</text>
+    </view>
+    <view class="left-buttom">
+    <text>英雄联盟</text>
+    <van-icon name="comment-o" />0
+    <van-icon name="thumb-circle-o" />15
+    </view>
+    </view>
+    <view class="right"> 
+    <image src="/imgs/ak.jpg" class="right-img"></image>
+    </view>
+    </view>
+
+    <van-divider />
+
+    <view class="zixun-contain">
+    <text>特惠专区</text>
+    </view>
+
+    <view class="sp-contain">
+    <scroll-view class="image-group" scroll-x="true">
+    <view class="item" >
+        <view class="item_list">
+          <view class="top">
+          <text>限时折扣</text>
+          <van-icon name="arrow" size="16px"/>
+          </view>
+
+          <view class="buttom">
+            <view class="bottom-left">
+            <image src="/imgs/ys.png" class="bottom-left-img"></image>
+            </view>
+            <view class="bottom-right">  
+            <text class="buttom-top-font">西部牛仔 亚索</text>
+            <view >
+            <text class="now-price">￥34.50</text>
+            <text class="old-price">￥69.00</text>
+            </view>
+            </view>
+          </view>
+          
+        </view> 
+         <view class="item_list">
+          <view class="top">
+          <text>限时折扣</text>
+          <van-icon name="arrow" size="16px"/>
+          </view>
+
+          <view class="buttom">
+            <view class="bottom-left">
+            <image src="/imgs/ax.png" class="bottom-left-img"></image>
+            </view>
+            <view class="bottom-right">  
+            <text class="buttom-top-font">西部天使 艾希</text>
+            <view >
+            <text class="now-price">￥49.50</text>
+            <text class="old-price">￥99.00</text>
+            </view>
+            </view>
+          </view>
+          
+        </view> 
+         <view class="item_list">
+          <view class="top">
+          <text>限时折扣</text>
+          <van-icon name="arrow" size="16px"/>
+          </view>
+
+          <view class="buttom">
+            <view class="bottom-left">
+            <image src="/imgs/ns.png" class="bottom-left-img"></image>
+            </view>
+            <view class="bottom-right">  
+            <text class="buttom-top-font">西部魔影 德莱厄斯</text>
+            <view >
+            <text class="now-price">￥34.50</text>
+            <text class="old-price">￥69.00</text>
+            </view>
+            </view>
+          </view>
+          
+        </view> 
+    </view>
+    </scroll-view>
+    </view>
+    
+
+    
