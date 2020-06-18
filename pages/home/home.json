@@ -4,4 +4,5 @@
     "van-divider": "@vant/weapp/divider/index",
     "van-card": "@vant/weapp/card/index"
   }
+  
 }

@@ -159,11 +159,14 @@ swiper-contain{
   
 }
 
+
+
 .old-price{
   font-weight: bold;
   font-size: 12px;
   color: gray;
   text-decoration: line-through;
+  
 }
 
 .bottom-right{

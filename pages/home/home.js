@@ -7,9 +7,10 @@ Page({
   data: {
     background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
     imgUrls: [
-      'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
-      'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-      'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
+      'https://ossweb-img.qq.com/images/daojushop/uploads/ad/201709/20170911154037_125555.jpg',
+      'https://game.gtimg.cn/images/daojushop/uploads/ad/202006/20200617110051_219699.jpg',
+      'https://game.gtimg.cn/images/daojushop/uploads/ad/202006/20200618114948_547238.jpg',
+      'https://game.gtimg.cn/images/daojushop/uploads/ad/202006/20200611141256_171939.jpg'
     ],
     imgSrc : '',
     indicatorDots: true,  //开启面板控制点
@@ -25,7 +26,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var _this = this
+    /*var _this = this
     wx.request({
       url: 'http://192.168.1.103:3000/pic',
       
@@ -37,12 +38,24 @@ Page({
         console.log(res.data.message[0].src)
         _this.setResToData(res.data.message[0].src)
       }
-    })
+    })*/
     },
     setResToData: function(data){
       this.setData({imgSrc : data})
     },
- 
+    
+    toNews : function(options){
+      wx.navigateTo({
+        url: '/news/pages/news'
+      })
+      
+    },
+
+    toShopping : function(){
+        wx.navigateTo({
+          url: '/shopping/pages/shopping',
+        })
+    },
   
   /**
    * 生命周期函数--监听页面初次渲染完成

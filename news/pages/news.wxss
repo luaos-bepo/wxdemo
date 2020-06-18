@@ -1,0 +1,61 @@
+/* pages/news.wxss */
+
+
+.top-title{
+ 
+  height: 40px;
+  width: 100%;
+  background-color : grey;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+
+.news-container{
+  padding-top: 15px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.guanzhu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sj{
+  height: 40px;
+  line-height: 40px;
+  font-size: small;
+}
+
+.first{
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.img-contain{
+  width: 100%;
+  text-align: center;
+}
+
+.center-img{
+  
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.duanluo{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+
+
+
+
+

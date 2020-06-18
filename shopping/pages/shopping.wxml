@@ -1,0 +1,95 @@
+<!--shopping/pages/shopping.wxml-->
+<view class="shopping-contain"> 
+<view class="top-img-contain">
+<image src="https://game.gtimg.cn/images/daoju/app/lol/big/2-122016-.jpg?_t=1570688845"  class="top-img"></image>
+
+</view>
+
+<view class="contain">
+
+<view class="shopping-name">
+<text>西部魔影 德莱厄斯</text>
+</view>
+
+<view class="tag">
+<view>
+<van-tag color="#f2826a" class="tag-font">限时</van-tag>
+<van-tag color="#7232dd" class="tag-font">特惠</van-tag>
+</view>
+<van-count-down time="{{ time }}" format="DD 天 HH 时 mm 分 ss 秒" class="tiem-font"/>
+</view>
+
+<view class="price-contain">
+<text class="now-price">￥39.5</text>
+<text class="old-price">￥79.00</text>
+</view>
+
+<van-divider />
+
+<view>
+<text class="jieshao">道具介绍</text>
+<text class="mingcheng">西部魔影 德莱厄斯</text>
+</view>
+
+<van-divider />
+
+<view>
+<text class="jieshao">下单返利</text>
+<text class="jieshao">购买可获得<text class="num">19</text>聚豆</text>
+</view>
+<van-divider />
+
+<view>
+<text class="jieshao">商品期限</text>
+<van-tag round color="#FFF2C7" size="large" text-color="black">永久</van-tag>
+</view>
+<van-divider />
+
+<view>
+<text class="jieshao">角色信息</text>
+<text class="user">一只土拨鼠c</text><text class="jieshao">艾欧里亚 电信</text>
+</view>
+<van-divider />
+
+<view class="js-contain">
+<text class="jieshao1">评价详情</text>
+<view class="pj-list">
+  <view class="pj">
+    <view>
+    <image src="../../imgs/ky.png" class="pj-img"></image>
+    </view>
+    <text class="num-font">55</text>
+  </view>
+  <view class="pj">
+    <view>
+    <image src="../../imgs/yb.png" class="pj-img"></image>
+    </view>
+    <text class="num-font">1</text>
+  </view>
+  <view class="pj">
+    <view>
+    <image src="../../imgs/bx.png" class="pj-img"></image>
+    </view>
+    <text class="num-font">16</text>
+  </view>
+</view>
+</view>
+
+<van-divider />
+
+
+
+<van-icon name="shopping-cart-o" class="xuanfu-icon"/>
+
+<!--为了解决底部按钮会遮住一部分信息-->
+<view class="placeholder-view">
+
+</view>
+
+<view class="buttom">
+<van-button type="default" custom-style="width : 30%" ><van-icon name="point-gift" class="icon-gift"/><text>赠送</text></van-button>
+<van-button type="default" custom-style="width : 35%" color="black" bindtap="addSuccess">加入购物车</van-button>
+<van-button type="default" custom-style="width : 35%; color : black" color="#FEC81A" >立即购买</van-button>
+</view>
+</view>
+</view>

@@ -29,12 +29,12 @@
     </view>
     </view>
 
-    <view class="zixun-contain">
+    <view class="zixun-contain" bindtap="toNews">
     <text>推荐资讯</text>
     <van-icon name="arrow" />
     </view>
 
-    <view class="out">
+    <view class="out" bindtap="toNews">
     <view class="left">
     <view class="left-top">
     <text>LOL黑暗收割艾克野区持续制霸，稻草人领衔三大英雄轻松克制！</text>
@@ -56,16 +56,16 @@
     <text>特惠专区</text>
     </view>
 
-    <view class="sp-contain">
+    <view class="sp-contain" >
     <scroll-view class="image-group" scroll-x="true">
     <view class="item" >
-        <view class="item_list">
+        <view class="item_list" bindtap="toShopping">
           <view class="top">
           <text>限时折扣</text>
           <van-icon name="arrow" size="16px"/>
           </view>
 
-          <view class="buttom">
+          <view class="buttom" >
             <view class="bottom-left">
             <image src="/imgs/ys.png" class="bottom-left-img"></image>
             </view>
@@ -79,7 +79,7 @@
           </view>
           
         </view> 
-         <view class="item_list">
+         <view class="item_list" bindtap="toShopping">
           <view class="top">
           <text>限时折扣</text>
           <van-icon name="arrow" size="16px"/>
@@ -99,7 +99,7 @@
           </view>
           
         </view> 
-         <view class="item_list">
+         <view class="item_list" bindtap="toShopping">
           <view class="top">
           <text>限时折扣</text>
           <van-icon name="arrow" size="16px"/>
@@ -122,6 +122,8 @@
     </view>
     </scroll-view>
     </view>
+
+
     
 
     

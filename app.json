@@ -2,6 +2,20 @@
   "pages": [
     "pages/home/home"
   ],
-  "sitemapLocation": "sitemap80.json"
-  
+  "sitemapLocation": "sitemap80.json",
+  "subpackages": [
+    {
+      "root": "news",
+      "pages": [
+        "pages/news"
+      ]
+    },
+    {
+      "root": "shopping",
+      "pages": [
+        "pages/shopping"
+      ]
+    }
+
+  ]
 }

@@ -1,0 +1,303 @@
+<!--pages/news.wxml-->
+<view class="top">
+    <view class="top-title">
+    <text>推荐资讯</text>
+    </view>
+</view>
+
+<view class="news-container">
+    <view class="news-title">
+    <text>LOL黑暗收割艾克野区持续制霸，稻草人领衔三大英雄轻松克制！</text>
+    </view>
+
+    <view class="guanzhu">
+    <view class="sj">
+    <text>06-15 12:03</text>
+    </view>
+    <van-button round type="info" size="small">+关注</van-button>
+    </view>
+
+    <view class="first">
+    <text>10.12版本更新已经有些天了，随着新版本对英雄的改动，不少路线都发生了变化，但是野区排行中艾克已经连续多个版本称霸T级榜首，今天我们就来盘点一下三大克制英雄。</text>
+    </view>
+
+    <view class="img-contain">
+    <image src="../../imgs/ak.jpg" class="center-img"></image>
+    </view>
+    
+    <view class="duanluo">
+    <text>
+    艾克野区优势：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    艾克因为W技能的存在刷野能力较强，E技能的突进效果加上Q可快速支援到达线上打出三环的爆炸伤害。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    续航能力极强，大招的存在可以让其有更大的操作空间，不管是野区还是对线拉扯效果都非常好。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    中后期秒脆皮能力无敌，艾克一旦巫妖加大帽装备具备后，团战找好位置进场，可快速切掉敌方C位英雄，一旦前中期优势建立起来，后期几乎不给对面翻盘的机会。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    但是艾克坦度并不高，而且非常怕控制效果，所以野区有控制能力的英雄可很好的限制其大招释放，一套连招配合队友快速将其击杀，团战不给输出空间。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    克制英雄一：远古恐惧 费德提克
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935897577/641" class="center-img"></image>
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935899224/641" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    英雄分析：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    末日的控制能力在游戏中也是数一数二，尤其是后期装备具备后大招进场，快速打出一套控制来限制敌方主要输出点，爆炸伤害再配合上队友的输出快速击杀。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    末日的控制能力在游戏中也是数一数二，尤其是后期装备具备后大招进场，快速打出一套控制来限制敌方主要输出点，爆炸伤害再配合上队友的输出快速击杀。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    技能加点：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    主W副Q一级学习W技能
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935904706/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    出装：
+    </text>
+    </view>
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935949481/641" class="center-img" mode="widthFix"></image>
+    </view>
+    <view class="duanluo">
+    <text>
+    主系符文选择符能回声，增加伤害冷却缩减和法力值，被动附带的回声效果可造成额外伤害，中娅增加伤害护甲和冷却缩减，加上鬼书三件装备具备后团战能力极强，后期装备选择大帽+女妖。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    符文：
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935909521/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    电刑可增加稻草人的爆发伤害，快速输出来进行击杀，恶意中伤对移动受损敌人可造成更多伤害，眼球收集器增加适应力，无情猎手增加非战斗状态下的移速，副系符文选择水上行走来提升移速，灵光披风释放召唤师技能得到移速加成。
+    </text>
+    </view>
+
+     <view class="duanluo">
+    <text>
+    玩法技巧：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    前期主要以刷野为主，等级到达三级后可选择去gank，末日没有位移技能一定要注意好绕位置，到达路线后远程E技能先手造成伤害并沉默敌人，贴脸后开Q恐惧，W技能配合队友持续输出造成伤害，六级有大招gank能力大大提升，后期团战装备具备后找好位置开R进场，配合队友快速收割。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    克制英雄二：青钢影 卡蜜尔
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935910939/641" class="center-img" mode="widthFix"></image>
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935914568/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    英雄分析：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    卡蜜尔属于持续作战能力强的英雄，前期就可以凭借征服者的效果反野艾克，大招也能很好的避免三环伤害，降低艾克的爆发也好让自己不断输出。
+    </text>
+    </view>
+     <view class="duanluo">
+    <text>
+    技能加点：
+    </text>
+    </view>
+    
+     <view class="duanluo">
+    <text>
+    主E副Q一级学习E技能
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935915671/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    出装：
+    </text>
+    </view>
+    
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935950639/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    第一件装备选择战士打野刀，增加伤害和冷却缩减，可大大满足青钢影的前期刷野和gank能力，三相之力增加多方面效果，耀光触发后爆发伤害更高，加上血手三件装备具备后团战能力极强，后期装备选择死亡之舞+复活甲。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    符文：
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935918567/641" class="center-img" mode="widthFix"></image>
+    </view>
+    
+    <view class="duanluo">
+    <text>
+    主系符文选择征服者，触发后可增加适应力，叠加到十层后可将15%的伤害转化为治疗效果，凯旋参与击杀得到治疗，欢欣提升攻速，致命一击对生命值低的敌人可造成更多伤害，副系符文选择神奇之鞋增加额外移速，未来市场可欠额购买物品。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    玩法技巧：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    青钢影前期的刷野一定要注意好拉扯，尽可能的避免掉太多生命值，等级到达三级后就可以去路线或者野区找几乎，看准位置E技能先手，贴脸敌人后造成伤害并打出控制效果，后续开Q技能配合普攻持续输出，W补加伤害并减速敌人更容易造成击杀，六级有大招留人能力更强，后期装备具备后团战进场快速贴脸敌方C位，凭借爆发伤害和大招的效果将其秒杀即可。
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    克制英雄三：影流之镰 凯隐
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935920528/641" class="center-img" mode="widthFix"></image>
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935921849/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+     <view class="duanluo">
+    <text>
+    英雄分析：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    近几个版本凯隐在野区热度也非常火爆，红凯的百分比伤害加上续航能力让其成为不死战神，能打伤害还可以抗输出。
+    </text>
+    </view>
+     <view class="duanluo">
+    <text>
+    技能加点：
+    </text>
+    </view>
+    
+     <view class="duanluo">
+    <text>
+    主Q副W一级学习Q技能
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935924719/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    出装：
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935954508/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    符文：
+    </text>
+    </view>
+
+    <view class="img-contain">
+    <image src="//inews.gtimg.com/newsapp_bt/0/11935927237/641" class="center-img" mode="widthFix"></image>
+    </view>
+
+    <view class="duanluo">
+    <text>
+    玩法技巧：
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    前期主要以刷野为主，等级到达三级可选择去先路gank，E技能的存在可以让其很好的找到gank位置，进场后W技能先手造成伤害并减速敌人，后续Q技能配合来持续输出，和队友一起造成击杀，六级有大招续航能力加上持续的作战可轻松击杀敌方英雄，后期团战装备具备后成为不死战神！
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    总结
+    </text>
+    </view>
+    <view class="duanluo">
+    <text>
+    以上就是当前版本比较克制艾克的三大英雄，有控制能力强的，有持续作战能力强的，两方面克制让艾克更难发挥！
+    </text>
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</view>
