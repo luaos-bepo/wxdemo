@@ -13,6 +13,7 @@ Page({
       'https://game.gtimg.cn/images/daojushop/uploads/ad/202006/20200611141256_171939.jpg'
     ],
     imgSrc : '',
+    youhuiList : [],
     indicatorDots: true,  //开启面板控制点
     vertical: false,     //false 表示不开启纵向移动，既开启横向移动
     autoplay: true,    //是否开启自动切换
@@ -26,22 +27,25 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    /*var _this = this
+    var _this = this
     wx.request({
-      url: 'http://192.168.1.103:3000/pic',
+      url: 'http://127.0.0.1:3000/youhuilist',
       
       header: {
         'content-type': 'application/json' // 默认值
       },
       method : "GET",
       success (res) {
-        console.log(res.data.message[0].src)
-        _this.setResToData(res.data.message[0].src)
+        //console.log(res.data.data)
+       _this.setResToData(res.data.data)
+       
       }
-    })*/
+    })
+    
     },
     setResToData: function(data){
-      this.setData({imgSrc : data})
+      this.setData({ youhuiList : data })
+      //console.log(this.data.youhuiList)
     },
     
     toNews : function(options){
@@ -51,10 +55,12 @@ Page({
       
     },
 
-    toShopping : function(){
+    toShopping : function(event){
         wx.navigateTo({
-          url: '/shopping/pages/shopping',
+          url: '/shopping/pages/shopping?id='+event.currentTarget.dataset.index
+          
         })
+        //console.log(event.currentTarget.dataset.index)
     },
   
   /**

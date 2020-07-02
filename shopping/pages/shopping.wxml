@@ -1,14 +1,14 @@
 <!--shopping/pages/shopping.wxml-->
-<view class="shopping-contain"> 
+<view class="shopping-contain" wx:for="{{shopList}}" wx:key="*this"> 
 <view class="top-img-contain">
-<image src="https://game.gtimg.cn/images/daoju/app/lol/big/2-122016-.jpg?_t=1570688845"  class="top-img"></image>
+<image src="{{item.img_src}}"  class="top-img"></image>
 
 </view>
 
 <view class="contain">
 
 <view class="shopping-name">
-<text>西部魔影 德莱厄斯</text>
+<text>{{item.name}}</text>
 </view>
 
 <view class="tag">
@@ -20,15 +20,15 @@
 </view>
 
 <view class="price-contain">
-<text class="now-price">￥39.5</text>
-<text class="old-price">￥79.00</text>
+<text class="now-price">￥{{item.ow_price}}</text>
+<text class="old-price">￥{{item.old_price}}</text>
 </view>
 
 <van-divider />
 
 <view>
 <text class="jieshao">道具介绍</text>
-<text class="mingcheng">西部魔影 德莱厄斯</text>
+<text class="mingcheng">{{item.name}}</text>
 </view>
 
 <van-divider />
@@ -79,7 +79,7 @@
 
 
 
-<van-icon name="shopping-cart-o" class="xuanfu-icon"/>
+<van-icon name="shopping-cart-o" class="xuanfu-icon" info="{{shopNum}}" bindtap="toShopCat"/>
 
 <!--为了解决底部按钮会遮住一部分信息-->
 <view class="placeholder-view">

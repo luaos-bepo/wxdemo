@@ -1,0 +1,69 @@
+<!--shopCat/pages/shopCat.wxml-->
+<view class="shop-container">
+
+<view class="shop-card">
+<view class="checkbox1">
+<van-checkbox value="{{ packsChecked }}" bind:change="onChangePacks"  class="checkbox1-font">道具包</van-checkbox>
+</view>
+    
+
+    <view class="shop-list" wx:for="{{packs}}" wx:key="index">
+    <view class="checkbox1">
+     <van-checkbox value="{{ item.checked }}" bind:change="onChange" data-id="{{item.id}}"></van-checkbox>
+    </view>
+    <view class="shop-left">
+    <image src="{{item.img_src}}" class="shop-img">
+    </image>
+    <view class="shopinfor-right">
+    <text class="shopinfor-font">{{item.name}}</text>
+    <van-tag plain type="danger">礼包</van-tag>
+    <view> <text class="shopinfor-nowprice">￥{{item.now_price}}</text></view>
+    </view>
+    </view>
+    </view>
+
+    
+   
+
+
+    <view class="checkbox1">
+    <van-checkbox value="{{ skinsChecked }}" bind:change="onChangeSkins" class="checkbox1-font">皮肤</van-checkbox>
+    </view>
+
+    <view class="shop-list" wx:for="{{skins}}" wx:key="index">
+    <view class="checkbox1">
+     <van-checkbox value="{{ item.checked }}" bind:change="onChange1" data-id="{{item.id}}"></van-checkbox>
+    </view>
+    <view class="shop-left">
+    <image src="{{item.img_src}}" class="shop-img">
+    </image>
+    <view class="shopinfor-right">
+    <text class="shopinfor-font">{{item.name}}</text>
+    <van-tag plain type="danger">永久</van-tag>
+    <view><text class="shopinfor-nowprice">￥{{item.now_price}}</text>
+          <text class="shopinfor-oldprice">￥{{item.old_price}}</text>
+    </view>
+    </view>
+    </view>
+    </view>
+
+   
+
+
+
+    <view class="shop-post">
+    <view class="checkbox1">
+    <van-checkbox value="{{ checkedAll }}" bind:change="onChangeAll" class="checkbox1-font">全选</van-checkbox>
+    </view>
+    <view class="shop-post-right">
+    <text class="checkbox1-font">合计:</text> <text class="shopinfor-nowprice">￥{{totalMoney}}</text> 
+    <van-button round type="info" size="small" class="post-button">去结算<text>({{totalNum}})</text></van-button>
+    <van-button round type="info" size="small" class="post-button" bindtap="deleteShop">删除</van-button>
+    </view>
+    </view>
+</view>
+
+
+
+</view>
+

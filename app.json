@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/home/home"
+    
   ],
   "sitemapLocation": "sitemap80.json",
   "subpackages": [
@@ -15,7 +16,13 @@
       "pages": [
         "pages/shopping"
       ]
+    },
+    {
+      "root":"shopCat",
+      "pages":[
+        "pages/shopCat"
+      ]
     }
-
+   
   ]
 }

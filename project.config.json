@@ -71,6 +71,13 @@
 					"id": -1,
 					"name": "shopping/pages/shopping",
 					"pathName": "shopping/pages/shopping",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "shopCat/pages/shopCat",
+					"pathName": "shopCat/pages/shopCat",
 					"scene": null
 				}
 			]

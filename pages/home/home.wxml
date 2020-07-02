@@ -58,8 +58,8 @@
 
     <view class="sp-contain" >
     <scroll-view class="image-group" scroll-x="true">
-    <view class="item" >
-        <view class="item_list" bindtap="toShopping">
+    <view class="item">
+        <view class="item_list" bindtap="toShopping"  wx:for="{{youhuiList}}" wx:key="*this" data-index='{{item.id}}'>
           <view class="top">
           <text>限时折扣</text>
           <van-icon name="arrow" size="16px"/>
@@ -67,58 +67,19 @@
 
           <view class="buttom" >
             <view class="bottom-left">
-            <image src="/imgs/ys.png" class="bottom-left-img"></image>
+            <image src="{{item.img_src}}" class="bottom-left-img"></image>
             </view>
             <view class="bottom-right">  
-            <text class="buttom-top-font">西部牛仔 亚索</text>
+            <text class="buttom-top-font">{{item.name}}</text>
             <view >
-            <text class="now-price">￥34.50</text>
-            <text class="old-price">￥69.00</text>
+            <text class="now-price">￥{{item.ow_price}}</text>
+            <text class="old-price">￥{{item.old_price}}</text>
             </view>
             </view>
           </view>
           
         </view> 
-         <view class="item_list" bindtap="toShopping">
-          <view class="top">
-          <text>限时折扣</text>
-          <van-icon name="arrow" size="16px"/>
-          </view>
-
-          <view class="buttom">
-            <view class="bottom-left">
-            <image src="/imgs/ax.png" class="bottom-left-img"></image>
-            </view>
-            <view class="bottom-right">  
-            <text class="buttom-top-font">西部天使 艾希</text>
-            <view >
-            <text class="now-price">￥49.50</text>
-            <text class="old-price">￥99.00</text>
-            </view>
-            </view>
-          </view>
-          
-        </view> 
-         <view class="item_list" bindtap="toShopping">
-          <view class="top">
-          <text>限时折扣</text>
-          <van-icon name="arrow" size="16px"/>
-          </view>
-
-          <view class="buttom">
-            <view class="bottom-left">
-            <image src="/imgs/ns.png" class="bottom-left-img"></image>
-            </view>
-            <view class="bottom-right">  
-            <text class="buttom-top-font">西部魔影 德莱厄斯</text>
-            <view >
-            <text class="now-price">￥34.50</text>
-            <text class="old-price">￥69.00</text>
-            </view>
-            </view>
-          </view>
-          
-        </view> 
+        
     </view>
     </scroll-view>
     </view>
